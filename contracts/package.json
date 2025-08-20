@@ -1,0 +1,22 @@
+{
+  "name": "yellow-memed-platform",
+  "version": "1.0.0",
+  "description": "Yellow Network Memed Token Battle Platform",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:yellow": "hardhat run scripts/deploy.ts --network yellowTestnet",
+    "deploy:yellow-mainnet": "hardhat run scripts/deploy.ts --network yellowMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.16",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  }
+}
